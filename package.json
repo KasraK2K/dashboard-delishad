@@ -1,0 +1,18 @@
+{
+  "name": "dashboard-delishad",
+  "version": "1.0.0",
+  "description": "admin dashboard for delishad",
+  "main": "server.js",
+  "engines": {
+    "node": "14.x",
+    "npm": "6.x"
+  },
+  "scripts": {
+    "start": "node server"
+  },
+  "author": "Kasra Karami <Kasra.Karami.KK@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

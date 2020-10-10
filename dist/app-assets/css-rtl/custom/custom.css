@@ -1,0 +1,144 @@
+/*================================================================================
+	Item Name: Materialize - Material Design Admin Template
+	Version: 5.0
+	Author: PIXINVENT
+	Author URL: https://themeforest.net/user/pixinvent/portfolio
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN CSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+/* @import "iransans.css"; */
+@font-face {
+  font-family: 'IRANSans';
+  src: url('/app-assets/fonts/IRANSans/eot/IRANSansWeb.eot'); /* IE9 Compat Modes */
+  src: url('/app-assets/fonts/IRANSans/eot/IRANSansWeb.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/app-assets/fonts/IRANSans/woff2/IRANSansWeb.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/app-assets/fonts/IRANSans/woff/IRANSansWeb.woff') format('woff'), /* Pretty Modern Browsers */
+       url('/app-assets/fonts/IRANSans/ttf/IRANSansWeb.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'IRANSans_Black';
+  src: url('/app-assets/fonts/IRANSans/eot/IRANSansWeb_Black.eot'); /* IE9 Compat Modes */
+  src: url('/app-assets/fonts/IRANSans/eot/IRANSansWeb_Black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/app-assets/fonts/IRANSans/woff2/IRANSansWeb_Black.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/app-assets/fonts/IRANSans/woff/IRANSansWeb_Black.woff') format('woff'), /* Pretty Modern Browsers */
+       url('/app-assets/fonts/IRANSans/ttf/IRANSansWeb_Black.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'IRANSans_Bold';
+  src: url('/app-assets/fonts/IRANSans/eot/IRANSansWeb_Bold.eot'); /* IE9 Compat Modes */
+  src: url('/app-assets/fonts/IRANSans/eot/IRANSansWeb_Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/app-assets/fonts/IRANSans/woff2/IRANSansWeb_Bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/app-assets/fonts/IRANSans/woff/IRANSansWeb_Bold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('/app-assets/fonts/IRANSans/ttf/IRANSansWeb_Bold.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'IRANSans_Light';
+  src: url('/app-assets/fonts/IRANSans/eot/IRANSansWeb_Light.eot'); /* IE9 Compat Modes */
+  src: url('/app-assets/fonts/IRANSans/eot/IRANSansWeb_Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/app-assets/fonts/IRANSans/woff2/IRANSansWeb_Light.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/app-assets/fonts/IRANSans/woff/IRANSansWeb_Light.woff') format('woff'), /* Pretty Modern Browsers */
+       url('/app-assets/fonts/IRANSans/ttf/IRANSansWeb_Light.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'IRANSans_Medium';
+  src: url('/app-assets/fonts/IRANSans/eot/IRANSansWeb_Medium.eot'); /* IE9 Compat Modes */
+  src: url('/app-assets/fonts/IRANSans/eot/IRANSansWeb_Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/app-assets/fonts/IRANSans/woff2/IRANSansWeb_Medium.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/app-assets/fonts/IRANSans/woff/IRANSansWeb_Medium.woff') format('woff'), /* Pretty Modern Browsers */
+       url('/app-assets/fonts/IRANSans/ttf/IRANSansWeb_Medium.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'IRANSans_UltraLight';
+  src: url('/app-assets/fonts/IRANSans/eot/IRANSansWeb_UltraLight.eot'); /* IE9 Compat Modes */
+  src: url('/app-assets/fonts/IRANSans/eot/IRANSansWeb_UltraLight.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/app-assets/fonts/IRANSans/woff2/IRANSansWeb_UltraLight.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/app-assets/fonts/IRANSans/woff/IRANSansWeb_UltraLight.woff') format('woff'), /* Pretty Modern Browsers */
+       url('/app-assets/fonts/IRANSans/ttf/IRANSansWeb_UltraLight.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+/* @import "material-icons.css"; */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../../fonts/Material-icon/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+       local('MaterialIcons-Regular'),
+       url(../../fonts/Material-icon/MaterialIcons-Regular.woff2) format('woff2'),
+       url(../../fonts/Material-icon/MaterialIcons-Regular.woff) format('woff'),
+       url(../../fonts/Material-icon/MaterialIcons-Regular.ttf) format('truetype'),
+       url(../../fonts/Material-icon/MaterialIcons-Regular.svg) format('svg');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+
+body {
+  font-family: "IRANSans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "IRANSans_Bold", sans-serif;
+}
+
+p {
+  font-family: "IRANSans_Medium", sans-serif;
+}
+/* کلاس فونت ایران سنس */
+.iransans {
+  font-family: "IRANSans_UltraLight", sans-serif;
+}
+/* اطلاعیه ها */
+span.badge.new:after {
+  content: " جدید";
+}
+/* صفحه تماس با ما */
+.contact-input {
+  padding-right: 10px;
+}
+input.select-dropdown.dropdown-trigger {
+  font-family: "IRANSans_Light", sans-serif;
+}
+
+input {
+  font-family: "IRANSans_UltraLight", sans-serif;
+}
+button {
+  font-family: "IRANSans_Light", sans-serif;
+}
+.price-rtl {
+  direction: rtl !important;
+  text-align: left !important;
+}
